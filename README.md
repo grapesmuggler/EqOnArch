@@ -1,11 +1,10 @@
-Install Ubuntu 18.04. Any desktop flavor should work. This was tested on Xubuntu 18.04.
+Install Arch Linux. Any desktop flavor should work.
 
 Run the following in a terminal.
 
-    sudo apt-get update
-    sudo apt-get install -y git
+    sudo pacman -S git alsa-firmware alsa-lib alsa-plugins alsa-utils lib32-alsa-lib lib32-alsa-plugins pulseaudio-alsa lib32-libpulse libcanberra-pulse libpulse pulseaudio lib32-openal
     mkdir -p ~/eq
-    git clone http://github.com/grantoverby/EqOnUbuntu.git ~/eq
+    git clone .... ~/eq
     ~/eq/bin/install
 
 You'll be prompted with some GUIs. Follow the defaults, with one exception: On the DirectX install, accept the license, click next, and then on the next part of the install window click close without DirectX actually being installed.
