@@ -1,8 +1,8 @@
-Install Arch Linux. Tested on Gnome Desktop Version 3.32.2.
+Install Arch Linux.
 
 Run the following in a terminal.
 
-    sudo pacman -S git alsa-firmware alsa-lib alsa-plugins alsa-utils lib32-alsa-lib lib32-alsa-plugins pulseaudio-alsa lib32-libpulse libcanberra-pulse libpulse pulseaudio lib32-openal
+    sudo pacman -S wine winetricks libwbclient firejail wget dos2unix alsa-firmware alsa-lib alsa-plugins alsa-utils lib32-alsa-lib lib32-alsa-plugins pulseaudio-alsa lib32-libpulse libcanberra-pulse libpulse pulseaudio lib32-openal
     mkdir -p ~/eq
     git clone https://github.com/grapesmuggler/EqOnArch ~/eq
     ~/eq/bin/install
