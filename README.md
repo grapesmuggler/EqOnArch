@@ -16,3 +16,14 @@ Wait for EverQuest to fully download, then exit the patcher.
 Run EverQuest.
 
     ~/eq/bin/launch
+
+Logout at server select screen.
+Edit eqclient.ini file in EverQuest folder, Change CPUAffinity0=0 to CPUAffinity0=-1
+
+    nano ~/eq/wineprefix/drive_c/users/Public/'Daybreak Game Company'/'Installed Games'/EverQuest/eqclient.ini
+
+Re-Run EverQuest.
+
+    ~/eq/bin/launch
+    
+    
