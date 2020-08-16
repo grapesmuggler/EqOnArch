@@ -1,5 +1,7 @@
 Install Arch Linux.
 
+Enable Arch Multilib Repository.
+
 Run the following in a terminal.
 
     sudo pacman -S wine winetricks libwbclient firejail wget dos2unix alsa-firmware alsa-lib alsa-plugins alsa-utils lib32-alsa-lib lib32-alsa-plugins pulseaudio-alsa lib32-libpulse libcanberra-pulse libpulse pulseaudio lib32-openal
